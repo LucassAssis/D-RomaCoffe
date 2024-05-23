@@ -20,14 +20,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 });
             });
         });
-        
+
         ;
     }
     document.getElementById("history-li").addEventListener('click', function () {
         document.getElementById("history").scrollIntoView({ behavior: 'smooth' });
     })
-    document.getElementById("prod-li").addEventListener('click', function(){
-document.getElementById("sec-prod").scrollIntoView({behavior:'smooth'});
+    document.getElementById("prod-li").addEventListener('click', function () {
+        document.getElementById("sec-prod").scrollIntoView({ behavior: 'smooth' });
     })
 });
 

@@ -73,10 +73,11 @@ nav ul {
     color: white;
     text-transform: uppercase;
     text-shadow: -1px 2px 3px hsl(0, 0%, 0%);
+    transition: 0.3s;
 }
 
 .text-nav:hover {
-    text-shadow: -4px 2px 2px hsl(25, 27%, 26%);
+    text-shadow: -3px 2px 3px hsl(25, 27%, 26%);
 }
 
 /* História */
@@ -124,14 +125,14 @@ section#history p {
     font-family: arial;
     letter-spacing: 1px;
     text-shadow: -2px 2px 2px hsl(27, 20%, 9%);
-
+    text-align: center;
 }
 
 /* Section Product */
 
 #sec-prod {
     display: flex;
-    gap: 15px;
+    gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -149,13 +150,20 @@ section#history p {
 }
 
 .prod {
-    box-shadow: 0px 0px 15px hsl(27, 50%, 31%);
+    box-shadow: 0px 0px 10px hsl(27, 50%, 31%, 0.7);
     display: flex;
     flex-direction: column;
     margin: 15px;
-    border-radius: 5px;
+    margin-bottom: 40px;
+    border-radius: 10px;
     padding: 15px;
-    cursor:pointer;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.prod:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 15px 30px hsl(27, 50%, 31%, 0.5);
 }
 
 .img-prod {
@@ -174,17 +182,17 @@ section#history p {
 .btn-prod {
     display: flex;
     margin: 5px auto;
-    padding:10px;
+    padding: 10px;
     width: 85%;
     justify-content: center;
     cursor: pointer;
     background-color: hsl(27, 20%, 9%);
     color: white;
-    border-radius: 5px;
+    border-radius: 7px;
     border: 1px solid transparent;
 }
 
-.btn-prod:hover{
+.btn-prod:hover {
     color: hsl(27, 20%, 9%);
     background-color: white;
     border: 1px solid hsl(27, 20%, 9%);
