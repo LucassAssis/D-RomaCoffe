@@ -67,7 +67,7 @@ nav ul {
 .text-nav {
     margin: 15px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 25px;
     display: inline;
     font-family: "Oregano", cursive;
     color: white;
@@ -87,7 +87,7 @@ nav ul {
     justify-content: center;
     display: flex;
     flex-direction: column;
-    background-color: hsl(24, 27%, 12%);
+    background-color: hsl(24, 27%, 8%);
     padding: 15px;
 }
 
@@ -186,7 +186,7 @@ section#history p {
     width: 85%;
     justify-content: center;
     cursor: pointer;
-    background-color: hsl(27, 20%, 9%);
+    background-color: hsl(27, 20%, 8%);
     color: white;
     border-radius: 7px;
     border: 1px solid transparent;
