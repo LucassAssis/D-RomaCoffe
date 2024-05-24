@@ -161,7 +161,6 @@ nav ul {
     flex-direction: column;
     background-color: hsl(24, 27%, 8%);
     padding: 15px;
-    height: 100%;
 }
 
 .h2 {
@@ -238,7 +237,6 @@ footer {
 }
 
 .brand{
-    
     font-family: "OREGANO";
     margin-top: 15px;
 }
