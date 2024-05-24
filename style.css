@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oregano:ital@0;1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oregano:ital@0;1&display=swap");
 
 /* hsl(24, 27%, 19%) Marrom Escuro*/
 * {
@@ -9,6 +9,7 @@
 
 body,
 html {
+    background-color: whitesmoke;
     height: 100%;
 }
 
@@ -80,54 +81,6 @@ nav ul {
     text-shadow: -3px 2px 3px hsl(25, 27%, 26%);
 }
 
-/* História */
-#history {
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    background-color: hsl(24, 27%, 8%);
-    padding: 15px;
-}
-
-.h2 {
-    margin-top: 10px;
-    display: flex;
-    font-size: 45px;
-    justify-content: center;
-    font-family: "Oregano", cursive;
-    color: hsl(0, 0%, 100%);
-    text-transform: uppercase;
-    padding: 5px;
-    width: 100%;
-    text-shadow: -4px 2px 2px hsl(0, 63%, 5%);
-}
-
-.img-p-history {
-    justify-content: space-around;
-    display: flex;
-    gap: 50px;
-    align-items: center;
-    margin: 25px;
-}
-
-.img-history {
-    flex: 1;
-    max-width: 50%;
-}
-
-section#history p {
-    flex: 1;
-    max-width: 50%;
-    font-size: 18px;
-    color: rgb(255, 255, 255);
-    font-family: arial;
-    letter-spacing: 1px;
-    text-shadow: -2px 2px 2px hsl(27, 20%, 9%);
-    text-align: center;
-}
-
 /* Section Product */
 
 #sec-prod {
@@ -197,6 +150,99 @@ section#history p {
     background-color: white;
     border: 1px solid hsl(27, 20%, 9%);
 }
+
+
+/* História */
+#history {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(24, 27%, 8%);
+    padding: 15px;
+    height: 100%;
+}
+
+.h2 {
+    margin-top: 10px;
+    display: flex;
+    font-size: 45px;
+    justify-content: center;
+    font-family: "Oregano", cursive;
+    color: hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    padding: 5px;
+    width: 100%;
+    text-shadow: -4px 2px 2px hsl(0, 63%, 5%);
+}
+
+.img-p-history {
+    justify-content: space-around;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin: 35px;
+}
+
+.img-history {
+    flex: 1;
+    max-width: 50%;
+}
+
+section#history p {
+    flex: 1;
+    max-width: 50%;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-family: arial;
+    letter-spacing: 1px;
+    text-shadow: -2px 2px 2px hsl(27, 20%, 9%);
+    text-align: center;
+}
+
+/* FOOTER */
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    flex-direction: column;
+}
+
+.icons-ctt {
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.img-insta,
+.img-number {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.adress {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.font-footer {
+    font-size: 20px;
+    color: hsl(0, 63%, 9%);
+}
+
+.brand{
+    
+    font-family: "OREGANO";
+    margin-top: 15px;
+}
+
 
 
 @media only screen and (max-width: 900px) {
